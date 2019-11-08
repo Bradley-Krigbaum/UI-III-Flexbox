@@ -104,6 +104,8 @@ body {
 .flex-column {
 	display: flex;
 	flex-flow: column wrap;
+	align-content: center;
+	align-items: center;
 }
 
 .flex-center {
@@ -233,4 +235,71 @@ footer p {
 	justify-content: center;
 	height: 30%%;
 	width: 100%;
+}
+
+/* SERVICES.HTML */
+
+.services-header-img {
+	width: 100%;
+	margin: 9% 0% 4%;
+}
+
+.services-h1 {
+	font-size: 35px;
+}
+
+.border-break {
+	border-bottom: #333 solid 1px;
+	margin: 3% 0 3%;
+}
+
+.border-break2 {
+	border-bottom: #333 solid 3px;
+	margin: 3% 0 3%;
+}
+
+.main-content-columns {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-content-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: space-between;
+	
+}
+
+.main-content-column-properties {
+	height: 300px;
+	width: 600px;;
+	border: #333 solid 1px;
+	background-color: #e6e6e6;
+	font-size: 16px;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+}
+
+.main-content-column-properties h2 p {
+	margin: 1%;
+}
+
+.main-content-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.main-content-column-properties button {
+	padding: 1.5% 5% 1.5%;
+	width: 150px;
+}
+
+.main-content-column-properties h2 {
+	font-size: 20px;
 }
